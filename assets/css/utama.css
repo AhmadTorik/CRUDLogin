@@ -1,0 +1,49 @@
+#jam-digital{overflow:hidden; width:350px; margin-top: 20px; }
+#hours{float:left; width:100px; height:110px; background-color:rgba(0,0,0,0.5); margin-right:25px; border-radius: 50px;}
+#minute{float:left; width:100px; height:110px; background-color:rgba(0,0,0,0.5); border-radius: 50px;}
+#second{float:right; width:100px; height:110px; background-color:rgba(0,0,0,0.5); margin-left:25px; border-radius: 50px;}
+#jam-digital p{color:#FFF; font-size:80px; text-align:center; margin-top:4px; border-radius: 50px;}
+
+body {
+  background-image: url(../images/buh.jpg); background-repeat: no-repeat; background-size: cover;
+}
+.welcome {color: white;
+width:50%;
+margin-top: 20px;
+display : block;
+background-color: rgba(0,0,0,0.2);
+margin: 25px auto 0 auto;
+border-radius: 60px;
+height: 100px;
+
+margin-bottom: 70px;}
+h1 {font-size: 80px; }
+h2 {
+font-size: 80px;
+}
+#start {
+  display: block;
+  margin: 25px auto 0 auto;
+  background-color: white;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  border-radius: 70px;
+  font-size: 40px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s.ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-out;
+}
+a {
+  text-decoration: none;
+
+}
+#start:hover {
+background-color: grey;
+-webkit-transform:scale(1.2);
+-moz-tranform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
